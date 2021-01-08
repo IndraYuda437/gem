@@ -87,7 +87,6 @@ $diamond = $a["data"]["game"]["resource"]["diamond"];
 if ($diamond){
 echo "SUKSES ";
 echo '|| get '.$r2." diamond ballance => ".$diamond."\n";
-sleep(30);
 }else{
 echo "FAILED\n";
 sleep(1);
